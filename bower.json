@@ -1,0 +1,28 @@
+{
+  "name": "taitravis.com",
+  "description": "portfolio website",
+  "main": "index.html",
+  "keywords": [
+    "fronend",
+    "drupal",
+    "portfolio"
+  ],
+  "authors": [
+    "Tai Travis"
+  ],
+  "license": "MIT",
+  "homepage": "taitravis.com",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "vendor/",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery-colorbox": "^1.6.4",
+    "placeholders": "^4.0.1"
+  }
+}

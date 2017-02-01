@@ -1,0 +1,96 @@
+.hide {
+  display:none !important;
+}
+/* NAVIGATION */
+.nav-link {
+  transition: all 200ms ease;
+}
+/* OPEN STATE */
+body.nav-open .nav-link {
+  display: block;
+  float: none;
+}
+body.nav-open .nav-menu {
+  display: inline-block !important;
+  padding-top: 50px;
+}
+body.nav-open .menu-button {
+  position: absolute;
+  right: 0;
+  background-color: black;
+}
+
+/* OVERLAY COLORBOX  */
+#cboxOverlay {
+  background: black;
+}
+
+/* CONTACT FORM */
+.form-contact {
+  background-color: #252525;
+  width: 100%;
+  margin: 0;
+  padding: 10px 30px 10px 30px;
+}
+
+.form-contact .form-contact--header h2 {
+  margin: 0;
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+
+.form-contact--content {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.colorbox-open .hero,
+.colorbox-open .section,
+.colorbox-open .footer {
+  filter: blur(5px) !important;
+  -webkit-filter: blur(5px) !important;
+  -moz-filter: blur(5px) !important;
+  -ms-filter: blur(5px) !important;
+  filter: url(#blur);
+  filter: progid: DXImageTransform.Microsoft.Blur(PixelRadius='5');
+}
+
+/* ABOUT PAGE */
+
+.page-about,
+.page-about p {
+  font-size: 1.3rem;
+  line-height: 1.7rem;
+}
+.page-about,
+.page-about p,
+.page-about h1 {
+  color: #444;
+}
+.page-about {
+  background-color: #fff;
+  /* min-height: 540px; */
+  background-image: -webkit-linear-gradient(270deg, rgba(255, 255, 255, .57), #eee), url("/img/graphics/iceland2500-water.jpg");
+  background-image: linear-gradient(180deg, rgba(255, 255, 255, .57), #eee), url("/img/graphics/iceland2500-water.jpg");
+  background-position: 0px 0px, 38% 50%;
+  background-size: auto, cover;
+  background-repeat: repeat, no-repeat;
+
+}
+.page-about .heading-wrapper {
+  margin-top: 0;
+  padding-top: 60px;
+}
+.footer-about__inner {
+  display: block;
+  width: 61%;
+  margin: 41px auto;
+  padding: 10px;
+}
+.footer-about a {
+  display: inline-block;
+  max-width: 34px;
+  background-color: #e8e8e8;
+  border-radius: 5px;
+}
