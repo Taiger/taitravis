@@ -1,0 +1,13 @@
+// Changes to me made and ideas.
+
+// IDEAS
+Make a hover effect so that the mounain photo can be clearer.
+Like this:
+.hero:hover {
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0), #222), url(/img/graphics/iceland2500.jpg);
+    background-position: 0px 0px, 38% 50%;
+    background-size: auto, cover;
+    background-repeat: repeat, no-repeat;
+   /* transition: 4s all linear; */
+    opacity: 1;
+}

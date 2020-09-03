@@ -23,15 +23,7 @@
     var $self = $(this);
     var name = $self.data('name')||'nope';
     e.preventDefault();
-
-    $self.colorbox({
-      href: function() {
-        return $(this).attr('href') + ' .page';
-      },
-      onOpen: function(){ $(document).trigger('colorbox.open', name)},
-      onClosed: function(){ $(document).trigger('colorbox.close', name)}
-    });
-
+    launchColorbox($self);
   });
 
     /* NAV */
@@ -39,7 +31,29 @@
     $(document).trigger('nav.toggle');
   })
 
-  /* w--current */
+  /* Project trigger */
+  $('.project-trigger').on('click', function(e, d) {
+    var $self = $(this);
+    var name = 'project';
+    e.preventDefault();
+    launchColorbox($self);
+  });
+
+  function launchColorbox($self) {
+    $self.colorbox({
+    href: function() {
+      if($self.attr('href')) {
+        return $self.attr('href') + ' .page';
+      } else {
+        return $self.data('href') + ' .page';
+      }
+    },
+    onOpen: function(){ $(document).trigger('colorbox.open', name)},
+    onClosed: function(){ $(document).trigger('colorbox.close', name)},
+    maxWidth: "100%"
+  });
+
+  }
 }(jQuery, document, window));
 
 /*

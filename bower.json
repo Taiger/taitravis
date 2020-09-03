@@ -23,6 +23,7 @@
   ],
   "dependencies": {
     "jquery-colorbox": "^1.6.4",
-    "placeholders": "^4.0.1"
+    "placeholders": "^4.0.1",
+    "vex": "^3.0.0"
   }
 }

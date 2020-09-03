@@ -1,9 +1,15 @@
+.page {
+  overflow: hidden;
+}
 .hide {
   display:none !important;
 }
 /* NAVIGATION */
 .nav-link {
   transition: all 200ms ease;
+}
+.logo-link {
+  color: white;
 }
 /* OPEN STATE */
 body.nav-open .nav-link {
@@ -93,4 +99,31 @@ body.nav-open .menu-button {
   max-width: 34px;
   background-color: #e8e8e8;
   border-radius: 5px;
+}
+
+/* PROJECT PAGE */
+.page-project {
+  padding: 10px 30px 10px 30px;
+  background-size: auto, cover;
+  background-repeat: repeat, no-repeat;
+}
+
+.page-project,
+.page-project p {
+  font-size: 1.3rem;
+  line-height: 1.7rem;
+}
+.page-project,
+.page-project p,
+.page-project h1 {
+  color: #444;
+}
+
+.project-tech {
+  font-size: 1rem;
+}
+
+.project-link {
+  text-align: right;
+  font-style: italic;
 }

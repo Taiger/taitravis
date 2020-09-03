@@ -1,7 +1,7 @@
 # taitravis
 taitravis.com
 
-This is my personal portfolio site :) 
+This is my personal portfolio site. 
 
 Imagery and logos are copyrighted to their respective brands.
 
