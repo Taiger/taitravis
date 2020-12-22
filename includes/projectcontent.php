@@ -136,3 +136,13 @@ $vm = array(
 'content' => '<p>Custom designed, custom themed, and some module development for Drupal 7.</p>',
 'link' => 'https://www.videomaker.com/',
   );
+
+$wildchild = array(
+'img' => 'https://www.wildchildbend.com/sites/wildchildbend.com/files/styles/medium/public/2020-12/niklas_hamann-Cxjh4S2Pmt8-unsplash.jpg',
+'name' => 'Wildchild',
+'tech' => 'Drupal 8, Uikit.',
+'jobtitle' => 'Fullstack Drupal Developer',
+'content' => '<p>Small custom project.</p>',
+'link' => 'https://www.wildchildbend.com',
+  );
+

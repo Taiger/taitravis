@@ -156,6 +156,11 @@ switch ($project_name) {
     require('projecttemplate.php');
     break;
 
+  case 'wildchild':
+    $project = $wildchild;
+    require('projecttemplate.php');
+    break;
+
   default:
     echo 'I cannot find that project right now';
     break;

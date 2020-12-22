@@ -4,6 +4,13 @@
         <div class="w-row">
 
             <div class="w-col w-col-4">
+              <div class="project-trigger" data-href="project/wildchild">
+                <img class="project-image" src="https://www.wildchildbend.com/sites/wildchildbend.com/files/2020-12/wildchild-square.png">
+              </div>
+            </div>
+
+
+            <div class="w-col w-col-4">
               <div class="project-trigger" data-href="project/deluxe">
                 <img class="project-image" src="/img/DELUXE.jpg">
               </div>
